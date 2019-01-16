@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+header {
+    margin: 0;
+}
+
+
+/*-- COLORS --*/
+
+
+.bg-color-name-title {
+    background-color: #FFEE82;
+    
+}
+
+.ui-menu-color-home{
+    background-color: #48C9B0;
+}
+
+.ui-menu-color-resume{
+    background-color: #45B39D;
+}
+
+.ui-menu-color-contact{
+    background-color: #52BE80;
+}
+
+.ui-menu-color-download{
+    background-color: #58D68D;
+}
+
+
+
+/*------- NAVBAR DINGES --------*/
+.heading{ 
+    margin-left: 50px;
+    text-align: center;
+}
+
+.logo {
+    background: url("../images/bird2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.name{
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+}
+
+.title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
