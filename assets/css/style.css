@@ -32,6 +32,11 @@ header {
 
 
 /*------- NAVBAR DINGES --------*/
+
+.list-inline-item:not(:last-child) {
+margin-right: 0rem;
+}
+
 .heading{ 
     margin-left: 50px;
     text-align: center;
