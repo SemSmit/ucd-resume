@@ -33,6 +33,7 @@ header {
 
 /*------- NAVBAR DINGES --------*/
 
+
 .list-inline-item:not(:last-child) {
 margin-right: 0rem;
 }
@@ -43,7 +44,7 @@ margin-right: 0rem;
 }
 
 .logo {
-    background: url("../images/bird2.jpg");
+    background: url("../images/sem.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,4 +67,11 @@ margin-right: 0rem;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
+}
+
+
+.menuitem{
+    padding: 0px;
+    height: 200px;
+    text-align: center;
 }
