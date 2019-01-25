@@ -10,7 +10,10 @@ header {
 
 .bg-color-name-title {
     background-color: #FFEE82;
-    
+}
+
+.bg-color-three-reasons {
+    background-color: #ffffff;
 }
 
 .ui-menu-color-home{
@@ -44,6 +47,29 @@ h1,h2,h3,h4,h5 {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
+    margin-bottom: 10px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.section-column{
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+    
+}
+
+.row-table{
+    display: table;
+}
+
+.section-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 /*------- heading --------*/
 
@@ -52,6 +78,13 @@ h1,h2,h3,h4,h5 {
 .heading{ 
     margin-left: 20px;
     text-align: center;
+}
+
+
+header {
+
+margin-bottom: -10px;
+
 }
 
 .logo {
@@ -134,3 +167,44 @@ footer{
     min-height: 120px;
     padding-top: -10px;
 }
+
+footer .cv-pdf i{
+    color: #fafafa;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer .cv-pdf i:hover{
+    color: #448B39;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #75C697;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover{
+    color: #448B39;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+#footer-details{
+    margin: 20px;
+}
+
